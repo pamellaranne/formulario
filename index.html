@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<body>
+    <div>
+        <h1>Cadastro de Devs</h1>
+
+        <h2>Complete suas informações</h2>
+
+        <form action="">
+                <fieldset class="caixa">
+                    <div class="caixa__itens">
+                        <label for=""><strong>Nome:</strong></label>
+                        <input focus class="nome__placeholder" type="text" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="caixa__itens">
+                        <label for=""><strong>Endereço:</strong></label>
+                        <input class="endereco__placeholder" type="text" placeholder="Digite seu endereço" required>
+                    </div>
+                    <div class="caixa__itens">
+                        <label for=""><strong>Email:</strong></label>
+                        <input class="email__placeholder" type="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="caixa__itens"> 
+                        <label for=""><strong>De qual lado da aplicação você desenvolve?</strong></label>
+                            <div>
+                                <div>
+                                    <input type="radio" name="opcao" value="Front-End"checked>
+                                    Front-End
+                                </div>
+                                <div>
+                                    <input type="radio" name="opcao" value="Back-End">
+                                    Back-End
+                                </div>
+                                <div>
+                                    <input type="radio" name="opcao" value="Full-Stack">
+                                    Full-Stack
+                                </div>
+                            </div>
+                    </div>
+                    <div class="caixa__itens">
+                        <label for=""><strong>Senioridade:</strong></label>
+                        <select name="" id="">
+                            <option selected disabled="">Selecione</option>
+                            <option value="">Júnior</option>
+                            <option value="">Pleno</option>
+                            <option value="">Sênior</option>
+                        </select>
+                    </div>
+                    <div class="caixa__itens">
+                        <label for=""><strong>Selecione suas atividades:</strong></label>
+                            <div>
+                                <input type="checkbox">
+                                HTML
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                CSS
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                JS
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                PHP
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                C#
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                Python
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                Java
+                            </div>
+                    </div>
+                    <div class="caixa__itens" class="area">
+                        <label for="" class="area__texto"><strong>Conte um pouco da sua experiência:</strong></label>
+                        <textarea name="" id="" cols="30" rows="10" class="area__texto"></textarea>
+                    </div>
+                    <br>
+                    <button class="botao" type="submit">Enviar</button>
+                </fieldset>
+        </form>
+    </div>
+
+     
+</body>
+</html>

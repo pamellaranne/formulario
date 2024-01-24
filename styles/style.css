@@ -1,0 +1,75 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    margin-left: 17.5em;
+}
+
+h2{
+    margin-left: 22.5em;
+
+}
+
+.caixa{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.caixa__itens{
+    padding: 1em 0 0 8em;
+    
+}
+
+.nome__placeholder:focus{
+    background-color: aqua;  
+}
+
+.nome__placeholder{
+    width: 50%;
+    border-radius: 5px;
+}
+
+.endereco__placeholder:focus{
+    background-color: aqua;
+}
+
+.endereco__placeholder{
+    width: 44%;
+    border-radius: 5px;
+}
+
+.email__placeholder:focus{
+    background-color: aqua;
+}
+
+.email__placeholder{
+    width: 50%;
+    border-radius: 5px;
+}
+
+.area, .area__texto{
+    display: block;
+}
+
+.area__texto:focus{
+    background-color: aqua;
+}
+
+.area__texto{
+    border-radius: 5px;
+}
+
+.botao{
+    border-radius: 5px;
+    margin-left: 17em;
+}
+
+.botao:hover{
+    background-color: aqua;
+
+}
+
+
+
+
